@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let controller = ViewController()
+        let controller = MainTabBarController()
         window?.rootViewController = controller
         
         return true
