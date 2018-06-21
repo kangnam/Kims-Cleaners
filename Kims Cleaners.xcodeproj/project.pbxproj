@@ -12,6 +12,7 @@
 		A3885501B0045041D9E9035C /* Pods_Kims_Cleaners.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C7491BB716FDB0BC673C25 /* Pods_Kims_Cleaners.framework */; };
 		EE253FC120DC3F9700F22ACA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE253FC020DC3F9700F22ACA /* GoogleService-Info.plist */; };
 		EE253FC320DC402500F22ACA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE253FC220DC402500F22ACA /* MainTabBarController.swift */; };
+		EE253FC520DC41BE00F22ACA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE253FC420DC41BE00F22ACA /* Extensions.swift */; };
 		EED8A82B20DC3ACE008C9D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED8A82A20DC3ACE008C9D74 /* AppDelegate.swift */; };
 		EED8A82D20DC3ACE008C9D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED8A82C20DC3ACE008C9D74 /* ViewController.swift */; };
 		EED8A83320DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EED8A83120DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodeld */; };
@@ -50,6 +51,7 @@
 		E4667B6DF59C498C47B4AA25 /* Pods-Kims CleanersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kims CleanersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kims CleanersTests/Pods-Kims CleanersTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE253FC020DC3F9700F22ACA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EE253FC220DC402500F22ACA /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		EE253FC420DC41BE00F22ACA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EED8A82720DC3ACE008C9D74 /* Kims Cleaners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kims Cleaners.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED8A82A20DC3ACE008C9D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED8A82C20DC3ACE008C9D74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				EED8A82A20DC3ACE008C9D74 /* AppDelegate.swift */,
 				EED8A82C20DC3ACE008C9D74 /* ViewController.swift */,
 				EE253FC220DC402500F22ACA /* MainTabBarController.swift */,
+				EE253FC420DC41BE00F22ACA /* Extensions.swift */,
 				EED8A83420DC3ACF008C9D74 /* Assets.xcassets */,
 				EED8A83620DC3ACF008C9D74 /* LaunchScreen.storyboard */,
 				EED8A83920DC3ACF008C9D74 /* Info.plist */,
@@ -399,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE253FC520DC41BE00F22ACA /* Extensions.swift in Sources */,
 				EED8A82D20DC3ACE008C9D74 /* ViewController.swift in Sources */,
 				EED8A83320DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodeld in Sources */,
 				EE253FC320DC402500F22ACA /* MainTabBarController.swift in Sources */,
