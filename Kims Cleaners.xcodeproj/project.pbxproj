@@ -10,6 +10,7 @@
 		4A53433025F8F2F40B3CA323 /* Pods_Kims_CleanersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53BCC762211DF4A0CA0A917 /* Pods_Kims_CleanersUITests.framework */; };
 		68BF86D1AFC0F691315EB49E /* Pods_Kims_CleanersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC0AFEBA4382053AA732592 /* Pods_Kims_CleanersTests.framework */; };
 		A3885501B0045041D9E9035C /* Pods_Kims_Cleaners.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C7491BB716FDB0BC673C25 /* Pods_Kims_Cleaners.framework */; };
+		EE253FC120DC3F9700F22ACA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE253FC020DC3F9700F22ACA /* GoogleService-Info.plist */; };
 		EED8A82B20DC3ACE008C9D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED8A82A20DC3ACE008C9D74 /* AppDelegate.swift */; };
 		EED8A82D20DC3ACE008C9D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED8A82C20DC3ACE008C9D74 /* ViewController.swift */; };
 		EED8A83320DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EED8A83120DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodeld */; };
@@ -46,6 +47,7 @@
 		BBC0AFEBA4382053AA732592 /* Pods_Kims_CleanersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kims_CleanersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C7491BB716FDB0BC673C25 /* Pods_Kims_Cleaners.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kims_Cleaners.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4667B6DF59C498C47B4AA25 /* Pods-Kims CleanersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kims CleanersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kims CleanersTests/Pods-Kims CleanersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE253FC020DC3F9700F22ACA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EED8A82720DC3ACE008C9D74 /* Kims Cleaners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kims Cleaners.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED8A82A20DC3ACE008C9D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED8A82C20DC3ACE008C9D74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				EED8A83420DC3ACF008C9D74 /* Assets.xcassets */,
 				EED8A83620DC3ACF008C9D74 /* LaunchScreen.storyboard */,
 				EED8A83920DC3ACF008C9D74 /* Info.plist */,
+				EE253FC020DC3F9700F22ACA /* GoogleService-Info.plist */,
 				EED8A83120DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodeld */,
 			);
 			path = "Kims Cleaners";
@@ -275,6 +278,7 @@
 			files = (
 				EED8A83820DC3ACF008C9D74 /* LaunchScreen.storyboard in Resources */,
 				EED8A83520DC3ACF008C9D74 /* Assets.xcassets in Resources */,
+				EE253FC120DC3F9700F22ACA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,7 +567,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GBGKDUGR37;
 				INFOPLIST_FILE = "Kims Cleaners/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kang-Nam.Kims-Cleaners-And-Tailor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -579,7 +586,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GBGKDUGR37;
 				INFOPLIST_FILE = "Kims Cleaners/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kang-Nam.Kims-Cleaners-And-Tailor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -596,7 +606,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GBGKDUGR37;
 				INFOPLIST_FILE = "Kims CleanersTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kang-Nam.Kims-CleanersTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -614,7 +628,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GBGKDUGR37;
 				INFOPLIST_FILE = "Kims CleanersTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kang-Nam.Kims-CleanersTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -631,7 +649,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GBGKDUGR37;
 				INFOPLIST_FILE = "Kims CleanersUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kang-Nam.Kims-CleanersUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -648,7 +670,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GBGKDUGR37;
 				INFOPLIST_FILE = "Kims CleanersUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kang-Nam.Kims-CleanersUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
