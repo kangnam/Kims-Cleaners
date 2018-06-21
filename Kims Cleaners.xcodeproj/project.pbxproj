@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EED8A82B20DC3ACE008C9D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED8A82A20DC3ACE008C9D74 /* AppDelegate.swift */; };
+		EED8A82D20DC3ACE008C9D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED8A82C20DC3ACE008C9D74 /* ViewController.swift */; };
+		EED8A83320DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EED8A83120DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodeld */; };
+		EED8A83520DC3ACF008C9D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED8A83420DC3ACF008C9D74 /* Assets.xcassets */; };
+		EED8A83820DC3ACF008C9D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED8A83620DC3ACF008C9D74 /* LaunchScreen.storyboard */; };
+		EED8A84320DC3ACF008C9D74 /* Kims_CleanersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED8A84220DC3ACF008C9D74 /* Kims_CleanersTests.swift */; };
+		EED8A84E20DC3ACF008C9D74 /* Kims_CleanersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED8A84D20DC3ACF008C9D74 /* Kims_CleanersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EED8A83F20DC3ACF008C9D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EED8A81F20DC3ACE008C9D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED8A82620DC3ACE008C9D74;
+			remoteInfo = "Kims Cleaners";
+		};
+		EED8A84A20DC3ACF008C9D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EED8A81F20DC3ACE008C9D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED8A82620DC3ACE008C9D74;
+			remoteInfo = "Kims Cleaners";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EED8A82720DC3ACE008C9D74 /* Kims Cleaners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kims Cleaners.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED8A82A20DC3ACE008C9D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EED8A82C20DC3ACE008C9D74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EED8A83220DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kims_Cleaners.xcdatamodel; sourceTree = "<group>"; };
+		EED8A83420DC3ACF008C9D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EED8A83720DC3ACF008C9D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EED8A83920DC3ACF008C9D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED8A83E20DC3ACF008C9D74 /* Kims CleanersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kims CleanersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED8A84220DC3ACF008C9D74 /* Kims_CleanersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kims_CleanersTests.swift; sourceTree = "<group>"; };
+		EED8A84420DC3ACF008C9D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED8A84920DC3ACF008C9D74 /* Kims CleanersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kims CleanersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED8A84D20DC3ACF008C9D74 /* Kims_CleanersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kims_CleanersUITests.swift; sourceTree = "<group>"; };
+		EED8A84F20DC3ACF008C9D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED8A82420DC3ACE008C9D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED8A83B20DC3ACF008C9D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED8A84620DC3ACF008C9D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EED8A81E20DC3ACE008C9D74 = {
+			isa = PBXGroup;
+			children = (
+				EED8A82920DC3ACE008C9D74 /* Kims Cleaners */,
+				EED8A84120DC3ACF008C9D74 /* Kims CleanersTests */,
+				EED8A84C20DC3ACF008C9D74 /* Kims CleanersUITests */,
+				EED8A82820DC3ACE008C9D74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EED8A82820DC3ACE008C9D74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED8A82720DC3ACE008C9D74 /* Kims Cleaners.app */,
+				EED8A83E20DC3ACF008C9D74 /* Kims CleanersTests.xctest */,
+				EED8A84920DC3ACF008C9D74 /* Kims CleanersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED8A82920DC3ACE008C9D74 /* Kims Cleaners */ = {
+			isa = PBXGroup;
+			children = (
+				EED8A82A20DC3ACE008C9D74 /* AppDelegate.swift */,
+				EED8A82C20DC3ACE008C9D74 /* ViewController.swift */,
+				EED8A83420DC3ACF008C9D74 /* Assets.xcassets */,
+				EED8A83620DC3ACF008C9D74 /* LaunchScreen.storyboard */,
+				EED8A83920DC3ACF008C9D74 /* Info.plist */,
+				EED8A83120DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodeld */,
+			);
+			path = "Kims Cleaners";
+			sourceTree = "<group>";
+		};
+		EED8A84120DC3ACF008C9D74 /* Kims CleanersTests */ = {
+			isa = PBXGroup;
+			children = (
+				EED8A84220DC3ACF008C9D74 /* Kims_CleanersTests.swift */,
+				EED8A84420DC3ACF008C9D74 /* Info.plist */,
+			);
+			path = "Kims CleanersTests";
+			sourceTree = "<group>";
+		};
+		EED8A84C20DC3ACF008C9D74 /* Kims CleanersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EED8A84D20DC3ACF008C9D74 /* Kims_CleanersUITests.swift */,
+				EED8A84F20DC3ACF008C9D74 /* Info.plist */,
+			);
+			path = "Kims CleanersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED8A82620DC3ACE008C9D74 /* Kims Cleaners */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED8A85220DC3ACF008C9D74 /* Build configuration list for PBXNativeTarget "Kims Cleaners" */;
+			buildPhases = (
+				EED8A82320DC3ACE008C9D74 /* Sources */,
+				EED8A82420DC3ACE008C9D74 /* Frameworks */,
+				EED8A82520DC3ACE008C9D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kims Cleaners";
+			productName = "Kims Cleaners";
+			productReference = EED8A82720DC3ACE008C9D74 /* Kims Cleaners.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EED8A83D20DC3ACF008C9D74 /* Kims CleanersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED8A85520DC3ACF008C9D74 /* Build configuration list for PBXNativeTarget "Kims CleanersTests" */;
+			buildPhases = (
+				EED8A83A20DC3ACF008C9D74 /* Sources */,
+				EED8A83B20DC3ACF008C9D74 /* Frameworks */,
+				EED8A83C20DC3ACF008C9D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED8A84020DC3ACF008C9D74 /* PBXTargetDependency */,
+			);
+			name = "Kims CleanersTests";
+			productName = "Kims CleanersTests";
+			productReference = EED8A83E20DC3ACF008C9D74 /* Kims CleanersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EED8A84820DC3ACF008C9D74 /* Kims CleanersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED8A85820DC3ACF008C9D74 /* Build configuration list for PBXNativeTarget "Kims CleanersUITests" */;
+			buildPhases = (
+				EED8A84520DC3ACF008C9D74 /* Sources */,
+				EED8A84620DC3ACF008C9D74 /* Frameworks */,
+				EED8A84720DC3ACF008C9D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED8A84B20DC3ACF008C9D74 /* PBXTargetDependency */,
+			);
+			name = "Kims CleanersUITests";
+			productName = "Kims CleanersUITests";
+			productReference = EED8A84920DC3ACF008C9D74 /* Kims CleanersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED8A81F20DC3ACE008C9D74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kang Nam";
+				TargetAttributes = {
+					EED8A82620DC3ACE008C9D74 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EED8A83D20DC3ACF008C9D74 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EED8A82620DC3ACE008C9D74;
+					};
+					EED8A84820DC3ACF008C9D74 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EED8A82620DC3ACE008C9D74;
+					};
+				};
+			};
+			buildConfigurationList = EED8A82220DC3ACE008C9D74 /* Build configuration list for PBXProject "Kims Cleaners" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EED8A81E20DC3ACE008C9D74;
+			productRefGroup = EED8A82820DC3ACE008C9D74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED8A82620DC3ACE008C9D74 /* Kims Cleaners */,
+				EED8A83D20DC3ACF008C9D74 /* Kims CleanersTests */,
+				EED8A84820DC3ACF008C9D74 /* Kims CleanersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED8A82520DC3ACE008C9D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED8A83820DC3ACF008C9D74 /* LaunchScreen.storyboard in Resources */,
+				EED8A83520DC3ACF008C9D74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED8A83C20DC3ACF008C9D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED8A84720DC3ACF008C9D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED8A82320DC3ACE008C9D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED8A82D20DC3ACE008C9D74 /* ViewController.swift in Sources */,
+				EED8A83320DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodeld in Sources */,
+				EED8A82B20DC3ACE008C9D74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED8A83A20DC3ACF008C9D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED8A84320DC3ACF008C9D74 /* Kims_CleanersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED8A84520DC3ACF008C9D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED8A84E20DC3ACF008C9D74 /* Kims_CleanersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EED8A84020DC3ACF008C9D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EED8A82620DC3ACE008C9D74 /* Kims Cleaners */;
+			targetProxy = EED8A83F20DC3ACF008C9D74 /* PBXContainerItemProxy */;
+		};
+		EED8A84B20DC3ACF008C9D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EED8A82620DC3ACE008C9D74 /* Kims Cleaners */;
+			targetProxy = EED8A84A20DC3ACF008C9D74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EED8A83620DC3ACF008C9D74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED8A83720DC3ACF008C9D74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EED8A85020DC3ACF008C9D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EED8A85120DC3ACF008C9D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EED8A85320DC3ACF008C9D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBGKDUGR37;
+				INFOPLIST_FILE = "Kims Cleaners/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kang-Nam.Kims-Cleaners-And-Tailor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EED8A85420DC3ACF008C9D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBGKDUGR37;
+				INFOPLIST_FILE = "Kims Cleaners/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kang-Nam.Kims-Cleaners-And-Tailor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EED8A85620DC3ACF008C9D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBGKDUGR37;
+				INFOPLIST_FILE = "Kims CleanersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kang-Nam.Kims-CleanersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kims Cleaners.app/Kims Cleaners";
+			};
+			name = Debug;
+		};
+		EED8A85720DC3ACF008C9D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBGKDUGR37;
+				INFOPLIST_FILE = "Kims CleanersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kang-Nam.Kims-CleanersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kims Cleaners.app/Kims Cleaners";
+			};
+			name = Release;
+		};
+		EED8A85920DC3ACF008C9D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBGKDUGR37;
+				INFOPLIST_FILE = "Kims CleanersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kang-Nam.Kims-CleanersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kims Cleaners";
+			};
+			name = Debug;
+		};
+		EED8A85A20DC3ACF008C9D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBGKDUGR37;
+				INFOPLIST_FILE = "Kims CleanersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kang-Nam.Kims-CleanersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kims Cleaners";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED8A82220DC3ACE008C9D74 /* Build configuration list for PBXProject "Kims Cleaners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED8A85020DC3ACF008C9D74 /* Debug */,
+				EED8A85120DC3ACF008C9D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED8A85220DC3ACF008C9D74 /* Build configuration list for PBXNativeTarget "Kims Cleaners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED8A85320DC3ACF008C9D74 /* Debug */,
+				EED8A85420DC3ACF008C9D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED8A85520DC3ACF008C9D74 /* Build configuration list for PBXNativeTarget "Kims CleanersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED8A85620DC3ACF008C9D74 /* Debug */,
+				EED8A85720DC3ACF008C9D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED8A85820DC3ACF008C9D74 /* Build configuration list for PBXNativeTarget "Kims CleanersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED8A85920DC3ACF008C9D74 /* Debug */,
+				EED8A85A20DC3ACF008C9D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EED8A83120DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EED8A83220DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodel */,
+			);
+			currentVersion = EED8A83220DC3ACF008C9D74 /* Kims_Cleaners.xcdatamodel */;
+			path = Kims_Cleaners.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EED8A81F20DC3ACE008C9D74 /* Project object */;
+}
